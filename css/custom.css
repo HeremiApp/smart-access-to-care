@@ -1,0 +1,197 @@
+.text-black {
+   color: #222;
+}
+
+.no-underline {
+   text-decoration: none;
+}
+
+header.masthead {
+   position: relative;
+   overflow: hidden;
+   padding-top: calc(7rem + 72px);
+   padding-bottom: 7rem;
+   background: linear-gradient(0deg, #f7d961 0%, #fff 100%);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: cover;
+}
+
+header.masthead .bg-circle {
+   z-index: 0;
+   position: absolute;
+   border-radius: 100%;
+   background: linear-gradient(0deg, #FFDE58 0%, #fff 100%);
+}
+header.masthead .bg-circle-1 {
+   height: 90rem;
+   width: 90rem;
+   bottom: -55rem;
+   left: -55rem;
+   background: linear-gradient(155deg, #FFDE58 0%, #fff 100%);
+}
+header.masthead .bg-circle-2 {
+   height: 50rem;
+   width: 50rem;
+   top: -25rem;
+   right: -25rem;
+}
+header.masthead .bg-circle-3 {
+   height: 20rem;
+   width: 20rem;
+   bottom: -10rem;
+   right: 5%;
+   background: linear-gradient(62deg, #FFDE58 0%, #fff 100%);
+}
+header.masthead .bg-circle-4 {
+   height: 30rem;
+   width: 30rem;
+   top: -5rem;
+   right: 35%;
+}
+
+/* btn-primary */
+.btn-primary {
+   color: #fff;
+   background-color: #FFDE58;
+   border-color: #FFDE58;
+}
+.btn-primary:hover {
+   color: #fff;
+   background-color: #FFDE58;
+   border-color: #FFDE58;
+}
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+   color: #fff;
+   background-color: #FFDE58;
+   border-color: #FFDE58;
+   box-shadow: 0 0 0 0.25rem rgba(150, 248, 255, 0.644);
+}
+.btn-check:checked + .btn-primary,
+.btn-check:active + .btn-primary,
+.btn-primary:active,
+.btn-primary.active,
+.show > .btn-primary.dropdown-toggle {
+   color: #fff;
+   background-color: #00C4CC;
+   border-color: #00C4CC;
+}
+.btn-check:checked + .btn-primary:focus,
+.btn-check:active + .btn-primary:focus,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+   box-shadow: 0 0 0 0.25rem rgba(150, 248, 255, 0.644);
+}
+.btn-primary:disabled,
+.btn-primary.disabled {
+   color: #fff;
+   background-color: #00C4CC;
+   border-color: #00C4CC;
+}
+
+/* navbar custom */
+.navbar-custom {
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   background-color: #fff;
+}
+.navbar-custom .navbar-brand {
+   text-transform: uppercase;
+   font-size: 1rem;
+   letter-spacing: 0.1rem;
+   font-weight: 700;
+}
+.navbar-custom .navbar-nav .nav-item .nav-link {
+   text-transform: uppercase;
+   font-size: 0.8rem;
+   font-weight: 700;
+   letter-spacing: 0.1rem;
+}
+
+.navbar-custom2 {
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   background-color: #FFDE58;
+}
+.navbar-custom2 .navbar-brand {
+   text-transform: uppercase;
+   font-size: 1rem;
+   letter-spacing: 0.1rem;
+   font-weight: 700;
+}
+.navbar-custom2 .navbar-nav .nav-item .nav-link {
+   text-transform: uppercase;
+   font-size: 0.8rem;
+   font-weight: 700;
+   letter-spacing: 0.1rem;
+}
+
+/* outline */
+.btn-outline-primary {
+   color: #fff;
+   background-color: none;
+   border-color: rgb(255, 255, 255);
+}
+.btn-outline-primary:hover {
+   color: #fff;
+   background-color: #00C4CC;
+   border-color: #00C4CC;
+}
+.btn-check:focus + .btn-outline-primary,
+.btn-outline-primary:focus {
+   box-shadow: 0 0 0 0.25rem rgba(150, 248, 255, 0.644);
+}
+.btn-check:checked + .btn-outline-primary,
+.btn-check:active + .btn-outline-primary,
+.btn-outline-primary:active,
+.btn-outline-primary.active,
+.btn-outline-primary.dropdown-toggle.show {
+   color: #fff;
+   background-color: #00C4CC;
+   border-color: #00C4CC;
+}
+.btn-check:checked + .btn-outline-primary:focus,
+.btn-check:active + .btn-outline-primary:focus,
+.btn-outline-primary:active:focus,
+.btn-outline-primary.active:focus,
+.btn-outline-primary.dropdown-toggle.show:focus {
+   box-shadow: 0 0 0 0.25rem rgba(150, 248, 255, 0.644);
+}
+.btn-outline-primary:disabled,
+.btn-outline-primary.disabled {
+   color: #00C4CC;
+   background-color: transparent;
+}
+
+header.masthead .masthead-content .masthead-heading {
+   font-size: 5rem;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+   font-size: 1.2rem;
+}
+
+.functionalities-img {
+   height: 500px;
+}
+
+.aboutus-img {
+   width: 250px;
+   border-radius: 100%;
+}
+
+.navbar .logo {
+   width: 40px;
+   height: 45px;
+   position: absolute;
+   top: -10px;
+   left: -40px;
+}
+
+.fav-icon {
+   width: 75px;
+   height: 75px;
+}
